@@ -1,0 +1,162 @@
+
+/* Contact Form */
+.contact-form {
+  max-width: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.contact-form span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align:centre;
+  border-bottom:1px solid rgb(0,0,0,0.1);
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  color: #333;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-bottom-color: #ff8000;
+}
+
+.contact-form textarea {
+  height: 70px;
+  resize: vertical;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #ff8000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #e67e00;
+}
+
+
+
+
+
+/* Apply responsive styles to the table */
+.table-container {
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ccc;
+  overflow-x: auto;
+}
+
+/* Style the table header */
+thead th {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Style the table body rows */
+tbody td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add a border between each table row */
+tbody tr {
+  border-bottom: 2px solid #ccc;
+}
+
+/* Add a border between each table column */
+tbody td:not(:last-child) {
+  border-right: 2px solid #ccc;
+}
+
+
+
+/* Apply responsive styles to the table */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table header */
+thead th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Style the table body rows */
+tbody td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add a border between each table row */
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Add a border between each table column */
+tbody td:not(:last-child) {
+  border-right: 1px solid #dddddd;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
